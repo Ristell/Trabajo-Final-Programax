@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TrabajoFinal {
     static String[] articulos ={"lapiceros", "papel", "archivadores", "resaltadores", "grapas", "folder"};
-    static String[] empleados ={"Bryan Condor","Mijhael Cueto","Jose Huaringa", "Diego Morales", "Jorge Tello"};
+    static String[] empleados ={"Bryan Condor","Mijhael Cueto", "Diego Morales", "Jorge Tello"};
     static int[] stockMinimo ={3,2,2,3,2,3};
 
     public static int[] modificarStock (String articulo, int cantidad, int[] stock){
